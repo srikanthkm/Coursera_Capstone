@@ -27,3 +27,26 @@ category of the place. We will pre-process the Foursquare location data to fetch
 Along with the Foursquare data, we will also use the Zomato data that provides details of the 
 various resturants in Bengaluru along with the cuisine type. The Zomato data can be found here : https://www.kaggle.com/himanshupoddar/zomato-bangalore-restaurants
 Combining both of these data will be the dataset on which we will cluster the resturants. 
+
+## Methodology
+
+### Data Collection
+
+The Bengaluru geography data is obtained for the various localities. In total 84 localities of Bengaluru are selected for the study and its geographic data is collected. 
+
+![Bengaluru Geo Data](https://github.com/srikanthkm/Coursera_Capstone/blob/master/images/Bengaluru_geo.png)
+
+### Data Cleansing and Pre-processing
+
+The data related to the restaurants is obtained via the Zomato dataset and preprocessing is performed on it to select only the required features. For each resturant, we extract the Resturant name, category, location and the rating. The rating field is used to filter only the data to include only restaurants with more than 3.5 ( out of 5 ) rating so that the analysis will be more trustworthy.
+
+Any duplicate data of restaurants is also removed from the dataset. 
+
+The cleansed dataset is then merged with the venue data obtained from the Foursquare API. The final dataset contains data about **6160 restaurants across 84 localities**. The study analyzes restaurants across **151 categories**.
+
+
+**Snapshot of the dataset**   
+![Dataset Snapshot](https://github.com/srikanthkm/Coursera_Capstone/blob/master/images/Dataset.png)
+
+### 
+
