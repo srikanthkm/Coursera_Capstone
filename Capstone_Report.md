@@ -48,5 +48,22 @@ The cleansed dataset is then merged with the venue data obtained from the Foursq
 **Snapshot of the dataset**   
 ![Dataset Snapshot](https://github.com/srikanthkm/Coursera_Capstone/blob/master/images/Dataset.png)
 
-### 
+### Data Visualization
 
+Next, we try to understand the data by visualize it in the form of charts and dataframe. We try to extract insights about the data using the Pandas operations. 
+
+![Bengaluru Map](https://github.com/srikanthkm/Coursera_Capstone/blob/master/images/Bengaluru_Map.png)
+
+![DistributionByLocality](https://github.com/srikanthkm/Coursera_Capstone/blob/master/images/DataVisualizationByLocality.png)
+
+![DistributionByCategory](https://github.com/srikanthkm/Coursera_Capstone/blob/master/images/DataVisualizationByCategory.png)
+
+
+### Modeling
+
+The dataset is then processed to extract the top 10 venue category for each of the locality. This helps to generate features for each location to categorize the locality based on the most common category of venues found in a location. 
+
+![OrderedVenues](https://github.com/srikanthkm/Coursera_Capstone/blob/master/images/OrderedVenues.png)
+
+
+The top 10 venue category for each location is used to cluster the localities into various clusters. 
