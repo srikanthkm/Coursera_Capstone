@@ -67,3 +67,26 @@ The dataset is then processed to extract the top 10 venue category for each of t
 
 
 The top 10 venue category for each location is used to cluster the localities into various clusters. 
+
+Based on the above data, K-Means clustering algorithm is applied to segment the localities into various cluster. The optimum Cluster count is calculated to be 5. So, the localities are divided into 5 clusters. 
+
+The dataframe result with the Clusters identified  
+![ClusterLabels](https://github.com/srikanthkm/Coursera_Capstone/blob/master/images/ClusterLabels.png)
+
+The color-coded Clusters rendered on a map using Folium.
+![Cluster Map](https://github.com/srikanthkm/Coursera_Capstone/blob/master/images/ClustersOnMap1.png)
+
+
+## Observation & Result
+
+K-Means Clustering algorithm is applied to segment the Bengaluru localities based on the most popular restaurant category available in each of the areas. Cluster labels are assigned to each of the clusters based on segmented data as follow in the rank of number of constituent localities
+
+- Casual Dining
+- Quick Bites
+- Dessert Parlours
+- Cafe
+- Clubs. 
+
+The clustering determines that the Casual Dining and Quick Bites are the most popular venue categories in Bengaluru.
+
+Most of the Casual Dining restaurants are concentrated in the city region and the quick bites are spread across the city locations. 
